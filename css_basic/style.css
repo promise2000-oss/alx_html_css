@@ -20,3 +20,36 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* styles.css */
+body {
+    background-color: #f0f4f8; /* soft background */
+    color: #333;
+}
+
+header {
+    background-color: #004080; /* deep blue header */
+    color: white;
+    border-bottom: 4px solid #007BFF;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+article h2 {
+    color: #004080;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+article p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.logo {
+    font-size: 2em;
+    margin-right: 15px;
+    color: #FFD700; /* gold star */
+}
